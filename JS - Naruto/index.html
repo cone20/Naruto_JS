@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto-Shippuden</title>
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body onload="whichEP();"> 
+
+<div class="container">
+
+    <div id="div_video">
+        <p id="naslov" class="head">Naruto Shippuden - <i>Cone 25.04.2022</i></p>
+        <video autoplay controls id="video" type="video/webm" src="https://cdn.asroll.tk/file/AS-Stream/AS+(1)/xsaNS/xsaNS+-+261.mp4" >
+    </div>
+    <div id="navbar">
+        <button class="button_look fix" id="prev" onclick="lastOne();" >
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge"></span>
+            <span class="button-82-front text">
+                Last one 
+            </span>
+        </button>
+        <input disabled type="text" id="episode"></input> 
+        <button class="button_look fix" id="prev" onclick="nextOne();" >
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge"></span>
+            <span class="button-82-front text">
+                Next one 
+            </span>
+        </button>
+
+        <div style="text-align: center; font-size: 15px;color: white;margin: 10px 0 0px 0px;background-color: black;">
+            <div class="episode_manga" style="text-align: center;margin-bottom: 10px;font-weight: 400;font-size: 20px;">Magna episodes - <small><code>Click # for help commands</code></small></div>
+            <div class="eps">
+                20-23, 26-27, 29-44, 46-48, 51-53, 55, 72-88, 113-114, 116-126, 129-143, 152-169, 172-175, 197-212, 214-222, 243-253, 255-256, 261-270, 272-278, 282-283, 297-302, 321-323, 325-326, 329, 332-337, 339-345, 363-375, 378-384, 387, 391-393, 414, 418, 420-421, 424-425, 459, 463, 470, 473-477, 484-500
+            </div>
+        </div>
+
+    </div>
+        
+</div>
+
+  
+
+
+
+<script src="./main.js"></script>
+
+
+</body>
+</html>

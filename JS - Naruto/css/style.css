@@ -1,0 +1,77 @@
+*{
+   margin: 0%;
+   padding: 0%;  
+}
+
+body{
+    background-color: black;
+}
+body::-webkit-scrollbar {
+    display: none;
+    zoom: 150%;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.head{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+
+#video{
+    width: 90vw;
+    height: 80vh;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 200px;
+ 
+}
+
+#prev, #next{   
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#episode{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    padding: 5px;
+    color:white;
+    text-align: center;
+    border-color: transparent;
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+    border-radius:10px;
+    background-color: rgb(120, 113, 113,0.3);
+    
+}
+
+
+#navbar{
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    margin-bottom: 10px;
+    z-index: 100;
+    width: 100vw;
+    gap: 10px;
+    
+}
+
+input{
+pointer-events: none;
+cursor: pointer;
+}
+
+
